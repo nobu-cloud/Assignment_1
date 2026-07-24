@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Molle:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Henny+Penny&family=Molle:ital@1&display=swap');
+
+:root {
+    --primary: #4e598cff;
+    --secondary: rgb(187, 213, 237);
+    --neutral: rgb(241, 232, 232);
+}
+
+body {
+    background-color:var(--primary); 
+    font-family: Arial, Helvetica, sans-serif; 
+    font-size: 16px; 
+    color:rgb(0, 0, 0);
+}
+
+main{
+    min-height: 80vh;
+}
+h2 {
+    color:var(--secondary);
+    text-align:left; 
+    font-size: 30px; 
+    font-family: "Henny Penny", system-ui;
+}
+
+a {
+    margin: 10px;
+}
+
+.hobbies li {
+    color:var(--neutral); 
+    text-align:justify; 
+    font-size: 18px;
+    margin: 5px;
+    border: 5px solid var(--primary);
+}
+
+ul:not(.hobbies) {
+    padding: 0;
+    display:flex;
+    list-style-type: none;
+}
+
+ul.hobbies {
+    padding: 10px;
+    margin: 0px;
+}
+.navigation a {
+color:var(--secondary);
+text-decoration:none;
+}
+
+#heading {
+ color:var(--secondary); 
+    text-align:center; 
+    font-size: 50px; 
+    font-family: "Molle", cursive;
+}
+
+img {
+    margin: 10px;
+    border: 1px solid orange;
+    padding: 1px;
+    width: 50%;
+}
+
+section .parent {
+    display:flex;
+    align-items: center;
+}
+
+section .child {
+    width: 30%;
+}
+
+footer {
+    text-align: center;
+}
