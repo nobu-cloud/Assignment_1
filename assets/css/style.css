@@ -66,11 +66,22 @@ img {
 
 section .parent {
     display:flex;
+    flex-direction: column;
     align-items: center;
 }
 
-section .child {
-    width: 30%;
+@media (min-width:768px) {
+    section .parent {
+        flex-direction: row;
+    }
+}
+
+@media (min-width: 1200px) {
+    section .parent  {
+        flex-direction: column;
+        align-items: center;
+        }
+        
 }
 
 footer {
