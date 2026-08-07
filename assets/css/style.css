@@ -2,9 +2,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Henny+Penny&family=Molle:ital@1&display=swap');
 
 :root {
-    --primary: #4e598cff;
-    --secondary: rgb(187, 213, 237);
-    --neutral: rgb(241, 232, 232);
+    --primary: #4e598c;
+    --secondary: #6CCFF6;
+    --neutral: #1D1E18;
 }
 
 body {
