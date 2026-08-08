@@ -2,9 +2,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Henny+Penny&family=Molle:ital@1&display=swap');
 
 :root {
-    --primary: #4e598c;
-    --secondary: #6CCFF6;
-    --neutral: #1D1E18;
+    --primary: #F8FAFC;
+    --secondary: #1E293B;
+    --text-color: #064E3B;
 }
 
 body {
@@ -29,7 +29,7 @@ a {
 }
 
 .hobbies li {
-    color:var(--neutral); 
+    color:var(--text-color); 
     font-size: 18px;
     margin: 5px;
     border: 5px solid var(--primary);
@@ -89,11 +89,11 @@ footer {
 }
 
 .contact-detail {
-    color:var(--neutral); 
+    color:var(--text-color); 
     font-size: 18px;
 }
 
 .about-description {
-    color:var(--neutral); 
+    color:var(--text-color); 
     font-size: 18px;
 }
